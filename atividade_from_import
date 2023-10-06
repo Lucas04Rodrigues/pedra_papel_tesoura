@@ -1,0 +1,21 @@
+from Biblioteca import *
+
+num1=float(input("Digite um numero: "))
+num2=float(input("Digite um numero: "))
+
+while True:
+    qual_operação=input("Qual operação deseja fazer somar,subtrair, multiplicar, dividir  Deseja sair ?")
+    if qual_operação == "1":
+        somar(num1,num2)
+       # print(somar)
+    elif qual_operação == "2":
+        subtrair( num1,num2)
+        #print(subtrair)
+    elif qual_operação == "3":
+        multiplicar(num1,num2)
+        #print(multiplicar)
+    elif qual_operação == "4":
+        dividir(num1,num2)
+        #print(dividir)
+    elif qual_operação == "sair":
+        break
